@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.polettiapps.lucaspoletti.math.Activity.CalculadoraRaizesActivity">
+
+    <EditText
+        android:id="@+id/editText_numeroRaiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintNumeroRaizQuadra"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:id="@+id/button_calcularRaizes"
+        android:layout_below="@+id/editText_numeroRaiz"
+        android:textColor="@color/colorText"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/preencherOsCampos"
+        android:id="@+id/textView_respostaRaizes"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/button_calcularRaizes"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView_respostaRaizesArredondada"
+        android:layout_below="@+id/textView_respostaRaizes"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"/>
+
+
+</RelativeLayout>

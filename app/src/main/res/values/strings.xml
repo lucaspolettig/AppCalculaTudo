@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Titulos de Telas -->
+    <string name="app_name">Calcula Tudo</string>
+    <string name="app_configuracoes">Configurações</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- Potenciação -->
+
+    <string name="numeroReal">Número real</string>
+    <string name="numeroElevado">Número elevado</string>
+
+    <!-- Regra De Três Simples -->
+    <string name="se">Se</string>
+    <string name="equivalea">Equivale a</string>
+    <string name="entao">Então</string>
+    <string name="x">X</string>
+    <string name="calcular">Calcular</string>
+    <string name="preencherOsCampos">Preencha os campos corretamente e clique em Calcular.</string>
+
+    <!-- IMC -->
+    <string name="hintAltura">Digite sua altura</string>
+    <string name="hintPeso">Digite seu peso</string>
+
+    <!-- Raizes -->
+    <string name="hintNumeroRaizQuadra">Digite o número desejado</string>
+
+</resources>
